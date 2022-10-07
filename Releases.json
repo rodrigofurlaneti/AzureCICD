@@ -1,0 +1,590 @@
+{
+   "source":2,
+   "revision":9,
+   "description":null,
+   "createdBy":{
+      "displayName":"Rodrigo Furlaneti",
+      "url":"https://spsprodsbr1.vssps.visualstudio.com/Af9f889f0-e49e-4127-b686-a95de0724744/_apis/Identities/ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+      "_links":{
+         "avatar":{
+            "href":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+         }
+      },
+      "id":"ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+      "uniqueName":"rodrigofurlaneti31@hotmail.com",
+      "imageUrl":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx",
+      "descriptor":"aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+   },
+   "createdOn":"2022-10-06T18:41:54.927Z",
+   "modifiedBy":{
+      "displayName":"Rodrigo Furlaneti",
+      "url":"https://spsprodsbr1.vssps.visualstudio.com/Af9f889f0-e49e-4127-b686-a95de0724744/_apis/Identities/ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+      "_links":{
+         "avatar":{
+            "href":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+         }
+      },
+      "id":"ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+      "uniqueName":"rodrigofurlaneti31@hotmail.com",
+      "imageUrl":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx",
+      "descriptor":"aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+   },
+   "modifiedOn":"2022-10-07T13:23:50.500Z",
+   "isDeleted":false,
+   "lastRelease":{
+      "id":36,
+      "name":"Release-10",
+      "artifacts":[
+         
+      ],
+      "_links":{
+         
+      },
+      "description":"Triggered by DonneBack 20221007.3.",
+      "releaseDefinition":{
+         "id":3,
+         "projectReference":null,
+         "_links":{
+            
+         }
+      },
+      "createdOn":"2022-10-07T13:26:44.727Z",
+      "createdBy":{
+         "displayName":"Rodrigo Furlaneti",
+         "url":"https://spsprodsbr1.vssps.visualstudio.com/Af9f889f0-e49e-4127-b686-a95de0724744/_apis/Identities/ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+         "_links":{
+            "avatar":{
+               "href":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+            }
+         },
+         "id":"ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+         "uniqueName":"rodrigofurlaneti31@hotmail.com",
+         "imageUrl":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx",
+         "descriptor":"aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+      }
+   },
+   "variables":{
+      
+   },
+   "variableGroups":[
+      
+   ],
+   "environments":[
+      {
+         "id":3,
+         "name":"Stage 1",
+         "rank":1,
+         "owner":{
+            "displayName":"Rodrigo Furlaneti",
+            "url":"https://spsprodsbr1.vssps.visualstudio.com/Af9f889f0-e49e-4127-b686-a95de0724744/_apis/Identities/ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+            "_links":{
+               "avatar":{
+                  "href":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+               }
+            },
+            "id":"ba2230af-46bc-6ee7-b1b5-8f1dcb534a11",
+            "uniqueName":"rodrigofurlaneti31@hotmail.com",
+            "imageUrl":"https://dev.azure.com/furlaneti/_apis/GraphProfile/MemberAvatars/aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx",
+            "descriptor":"aad.YmEyMjMwYWYtNDZiYy03ZWU3LWIxYjUtOGYxZGNiNTM0YTEx"
+         },
+         "variables":{
+            
+         },
+         "variableGroups":[
+            
+         ],
+         "preDeployApprovals":{
+            "approvals":[
+               {
+                  "rank":1,
+                  "isAutomated":true,
+                  "isNotificationOn":false,
+                  "id":7
+               }
+            ],
+            "approvalOptions":{
+               "requiredApproverCount":null,
+               "releaseCreatorCanBeApprover":false,
+               "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped":false,
+               "enforceIdentityRevalidation":false,
+               "timeoutInMinutes":0,
+               "executionOrder":1
+            }
+         },
+         "deployStep":{
+            "id":8
+         },
+         "postDeployApprovals":{
+            "approvals":[
+               {
+                  "rank":1,
+                  "isAutomated":true,
+                  "isNotificationOn":false,
+                  "id":9
+               }
+            ],
+            "approvalOptions":{
+               "requiredApproverCount":null,
+               "releaseCreatorCanBeApprover":false,
+               "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped":false,
+               "enforceIdentityRevalidation":false,
+               "timeoutInMinutes":0,
+               "executionOrder":2
+            }
+         },
+         "deployPhases":[
+            {
+               "deploymentInput":{
+                  "parallelExecution":{
+                     "parallelExecutionType":0
+                  },
+                  "agentSpecification":null,
+                  "skipArtifactsDownload":false,
+                  "artifactsDownloadInput":{
+                     "downloadInputs":[
+                        
+                     ]
+                  },
+                  "queueId":4,
+                  "demands":[
+                     
+                  ],
+                  "enableAccessToken":false,
+                  "timeoutInMinutes":0,
+                  "jobCancelTimeoutInMinutes":1,
+                  "condition":"succeeded()",
+                  "overrideInputs":{
+                     
+                  }
+               },
+               "rank":1,
+               "phaseType":1,
+               "name":"Run on agent",
+               "refName":null,
+               "workflowTasks":[
+                  {
+                     "environment":{
+                        
+                     },
+                     "taskId":"497d490f-eea7-4f2b-ab94-48d9c1acdcb1",
+                     "version":"4.*",
+                     "name":"Deploy Azure App Service to Slot",
+                     "refName":"",
+                     "enabled":true,
+                     "alwaysRun":false,
+                     "continueOnError":false,
+                     "timeoutInMinutes":0,
+                     "retryCountOnTaskFailure":0,
+                     "definitionType":null,
+                     "overrideInputs":{
+                        
+                     },
+                     "condition":"succeeded()",
+                     "inputs":{
+                        "ConnectionType":"AzureRM",
+                        "ConnectedServiceName":"$(Parameters.ConnectedServiceName)",
+                        "PublishProfilePath":"$(System.DefaultWorkingDirectory)/**/*.pubxml",
+                        "PublishProfilePassword":"",
+                        "WebAppKind":"$(Parameters.WebAppKind)",
+                        "WebAppName":"$(Parameters.WebAppName)",
+                        "DeployToSlotOrASEFlag":"$(Parameters.DeployToSlotOrASEFlag)",
+                        "ResourceGroupName":"$(Parameters.ResourceGroupName)",
+                        "SlotName":"$(Parameters.SlotName)",
+                        "DockerNamespace":"$(Parameters.DockerNamespace)",
+                        "DockerRepository":"$(Parameters.DockerRepository)",
+                        "DockerImageTag":"",
+                        "VirtualApplication":"",
+                        "Package":"$(System.DefaultWorkingDirectory)/**/WebApp.zip",
+                        "RuntimeStack":"",
+                        "RuntimeStackFunction":"",
+                        "StartupCommand":"$(Parameters.StartupCommand)",
+                        "ScriptType":"",
+                        "InlineScript":"",
+                        "ScriptPath":"",
+                        "WebConfigParameters":"",
+                        "AppSettings":"",
+                        "ConfigurationSettings":"",
+                        "UseWebDeploy":"false",
+                        "DeploymentType":"webDeploy",
+                        "TakeAppOfflineFlag":"true",
+                        "SetParametersFile":"",
+                        "RemoveAdditionalFilesFlag":"false",
+                        "ExcludeFilesFromAppDataFlag":"false",
+                        "AdditionalArguments":"",
+                        "RenameFilesFlag":"true",
+                        "XmlTransformation":"false",
+                        "XmlVariableSubstitution":"false",
+                        "JSONFiles":""
+                     }
+                  }
+               ]
+            }
+         ],
+         "environmentOptions":{
+            "emailNotificationType":"OnlyOnFailure",
+            "emailRecipients":"release.environment.owner;release.creator",
+            "skipArtifactsDownload":false,
+            "timeoutInMinutes":0,
+            "enableAccessToken":false,
+            "publishDeploymentStatus":true,
+            "badgeEnabled":false,
+            "autoLinkWorkItems":false,
+            "pullRequestDeploymentEnabled":false
+         },
+         "demands":[
+            
+         ],
+         "conditions":[
+            {
+               "name":"ReleaseStarted",
+               "conditionType":1,
+               "value":""
+            }
+         ],
+         "executionPolicy":{
+            "concurrencyCount":1,
+            "queueDepthCount":0
+         },
+         "schedules":[
+            
+         ],
+         "currentRelease":{
+            "id":36,
+            "url":"https://vsrm.dev.azure.com/furlaneti/28ea870e-cfbf-42f3-8d11-fb1675f072e3/_apis/Release/releases/36",
+            "_links":{
+               
+            }
+         },
+         "retentionPolicy":{
+            "daysToKeep":30,
+            "releasesToKeep":3,
+            "retainBuild":false
+         },
+         "processParameters":{
+            "inputs":[
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     
+                  },
+                  "name":"ConnectedServiceName",
+                  "label":"Azure subscription",
+                  "defaultValue":"3c99feb6-c15b-45af-b835-9df8d25f6797",
+                  "required":true,
+                  "type":"connectedService:AzureRM",
+                  "helpMarkDown":"Select the Azure Resource Manager subscription for the deployment.",
+                  "visibleRule":"",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     "webApp":"Web App on Windows",
+                     "webAppLinux":"Web App on Linux",
+                     "webAppContainer":"Web App for Containers (Linux)",
+                     "functionApp":"Function App on Windows",
+                     "functionAppLinux":"Function App on Linux",
+                     "functionAppContainer":"Function App for Containers (Linux)",
+                     "apiApp":"API App",
+                     "mobileApp":"Mobile App"
+                  },
+                  "properties":{
+                     "EditableOptions":"false"
+                  },
+                  "name":"WebAppKind",
+                  "label":"App type",
+                  "defaultValue":"webApp",
+                  "type":"pickList",
+                  "helpMarkDown":"",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     "EditableOptions":"True"
+                  },
+                  "name":"WebAppName",
+                  "label":"App service name",
+                  "defaultValue":"donneApi",
+                  "required":true,
+                  "type":"pickList",
+                  "helpMarkDown":"Enter or select the name of an existing Azure App Service.",
+                  "visibleRule":"",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     
+                  },
+                  "name":"DockerNamespace",
+                  "label":"Registry or Namespace",
+                  "defaultValue":"",
+                  "required":true,
+                  "type":"string",
+                  "helpMarkDown":"A globally unique top-level domain name for your specific registry or namespace.<br/> Note: Fully qualified image name will be of the format: '<b>`<registry or namespace`></b>/`<repository`>:`<tag`>'. For example, '<b>myregistry.azurecr.io</b>/nginx:latest'.",
+                  "visibleRule":"WebAppKind = webAppContainer || WebAppkind = functionAppContainer",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     
+                  },
+                  "name":"DockerRepository",
+                  "label":"Repository",
+                  "defaultValue":"",
+                  "required":true,
+                  "type":"string",
+                  "helpMarkDown":"Name of the repository where the container images are stored.<br/> Note: Fully qualified image name will be of the format: '`<registry or namespace`>/<b>`<repository`></b>:`<tag`>'. For example, 'myregistry.azurecr.io/<b>nginx</b>:latest'.",
+                  "visibleRule":"WebAppKind = webAppContainer || WebAppkind = functionAppContainer",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     
+                  },
+                  "name":"StartupCommand",
+                  "label":"Startup command",
+                  "defaultValue":"",
+                  "type":"string",
+                  "helpMarkDown":"Enter the start up command. For ex.<br/>dotnet run<br/>dotnet filename.dll",
+                  "visibleRule":"WebAppKind = webAppLinux || WebAppKind = webAppContainer || WebAppkind = functionAppContainer || WebAppKind = functionAppLinux",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     
+                  },
+                  "name":"DeployToSlotOrASEFlag",
+                  "label":"Deploy to Slot or App Service Environment",
+                  "defaultValue":"false",
+                  "type":"boolean",
+                  "helpMarkDown":"Select the option to deploy to an existing deployment slot or Azure App Service Environment.<br />For both the targets, the task needs Resource group name.<br />In case the deployment target is a slot, by default the deployment is done to the production slot. Any other existing slot name can also be provided.<br />In case the deployment target is an Azure App Service environment, leave the slot name as ‘production’ and just specify the Resource group name.",
+                  "visibleRule":"WebAppKind != \"\"",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     "EditableOptions":"True"
+                  },
+                  "name":"ResourceGroupName",
+                  "label":"Resource group",
+                  "defaultValue":"donneApi",
+                  "required":true,
+                  "type":"pickList",
+                  "helpMarkDown":"Enter or Select the Azure Resource group that contains the Azure App Service specified above.",
+                  "visibleRule":"DeployToSlotOrASEFlag = true",
+                  "groupName":""
+               },
+               {
+                  "aliases":[
+                     
+                  ],
+                  "options":{
+                     
+                  },
+                  "properties":{
+                     "EditableOptions":"True"
+                  },
+                  "name":"SlotName",
+                  "label":"Slot",
+                  "defaultValue":"ASP-donneApi-afb4",
+                  "required":true,
+                  "type":"pickList",
+                  "helpMarkDown":"Enter or Select an existing Slot other than the Production slot.",
+                  "visibleRule":"DeployToSlotOrASEFlag = true",
+                  "groupName":""
+               }
+            ],
+            "dataSourceBindings":[
+               {
+                  "dataSourceName":"AzureRMWebAppNamesByAppType",
+                  "parameters":{
+                     "WebAppKind":"$(WebAppKind)"
+                  },
+                  "endpointId":"$(ConnectedServiceName)",
+                  "target":"WebAppName"
+               },
+               {
+                  "dataSourceName":"AzureRMWebAppResourceGroup",
+                  "parameters":{
+                     "WebAppName":"$(WebAppName)"
+                  },
+                  "endpointId":"$(ConnectedServiceName)",
+                  "target":"ResourceGroupName"
+               },
+               {
+                  "dataSourceName":"AzureRMWebAppSlotsId",
+                  "parameters":{
+                     "WebAppName":"$(WebAppName)",
+                     "ResourceGroupName":"$(ResourceGroupName)"
+                  },
+                  "endpointId":"$(ConnectedServiceName)",
+                  "target":"SlotName",
+                  "resultTemplate":"{\"Value\":\"{{{ #extractResource slots}}}\",\"DisplayValue\":\"{{{ #extractResource slots}}}\"}"
+               }
+            ]
+         },
+         "properties":{
+            "BoardsEnvironmentType":{
+               "$type":"System.String",
+               "$value":"unmapped"
+            },
+            "LinkBoardsWorkItems":{
+               "$type":"System.String",
+               "$value":"False"
+            }
+         },
+         "preDeploymentGates":{
+            "id":0,
+            "gatesOptions":null,
+            "gates":[
+               
+            ]
+         },
+         "postDeploymentGates":{
+            "id":0,
+            "gatesOptions":null,
+            "gates":[
+               
+            ]
+         },
+         "environmentTriggers":[
+            
+         ],
+         "badgeUrl":"https://vsrm.dev.azure.com/furlaneti/_apis/public/Release/badge/28ea870e-cfbf-42f3-8d11-fb1675f072e3/3/3"
+      }
+   ],
+   "artifacts":[
+      {
+         "sourceId":"28ea870e-cfbf-42f3-8d11-fb1675f072e3:3",
+         "type":"Build",
+         "alias":"_DonneBack",
+         "definitionReference":{
+            "artifactSourceDefinitionUrl":{
+               "id":"https://dev.azure.com/furlaneti/_permalink/_build/index?collectionId=fca5ea76-4d95-4727-83af-b4e42f83c97c&projectId=28ea870e-cfbf-42f3-8d11-fb1675f072e3&definitionId=3",
+               "name":""
+            },
+            "defaultVersionBranch":{
+               "id":"",
+               "name":""
+            },
+            "defaultVersionSpecific":{
+               "id":"",
+               "name":""
+            },
+            "defaultVersionTags":{
+               "id":"",
+               "name":""
+            },
+            "defaultVersionType":{
+               "id":"latestType",
+               "name":"Latest"
+            },
+            "definition":{
+               "id":"3",
+               "name":"DonneBack"
+            },
+            "definitions":{
+               "id":"",
+               "name":""
+            },
+            "IsMultiDefinitionType":{
+               "id":"False",
+               "name":"False"
+            },
+            "project":{
+               "id":"28ea870e-cfbf-42f3-8d11-fb1675f072e3",
+               "name":"DonneBack"
+            },
+            "repository":{
+               "id":"",
+               "name":""
+            }
+         },
+         "isPrimary":true,
+         "isRetained":false
+      }
+   ],
+   "triggers":[
+      {
+         "artifactAlias":"_DonneBack",
+         "triggerConditions":[
+            
+         ],
+         "triggerType":1
+      }
+   ],
+   "releaseNameFormat":"Release-$(rev:r)",
+   "tags":[
+      
+   ],
+   "properties":{
+      "DefinitionCreationSource":{
+         "$type":"System.String",
+         "$value":"ReleaseNew"
+      },
+      "IntegrateBoardsWorkItems":{
+         "$type":"System.String",
+         "$value":"False"
+      },
+      "IntegrateJiraWorkItems":{
+         "$type":"System.String",
+         "$value":"false"
+      }
+   },
+   "id":3,
+   "name":"DonneBack-Prod",
+   "path":"\\",
+   "projectReference":null,
+   "url":"https://vsrm.dev.azure.com/furlaneti/28ea870e-cfbf-42f3-8d11-fb1675f072e3/_apis/Release/definitions/3",
+   "_links":{
+      "self":{
+         "href":"https://vsrm.dev.azure.com/furlaneti/28ea870e-cfbf-42f3-8d11-fb1675f072e3/_apis/Release/definitions/3"
+      },
+      "web":{
+         "href":"https://dev.azure.com/furlaneti/28ea870e-cfbf-42f3-8d11-fb1675f072e3/_release?definitionId=3"
+      }
+   }
+}
